@@ -1,0 +1,435 @@
+@media only all and (min-width: 961px) {
+	body {
+		background-color: #fafafa;
+		font-family: "Open Sans", sans-serif;
+	}
+	#menu_tab {
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		width: 350px;
+		height: 1500px;
+		background-color: black;
+		color: white;
+		text-align: center;
+		padding-top: 10%;
+		line-height: 3.3em;
+		font-size: 1em;
+		z-index: 888;
+	}
+	@media screen and (max-height: 600px) {
+		#menu_tab {
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			width: 350px;
+			height: 1500px;
+			background-color: black;
+			color: white;
+			text-align: center;
+			padding-top: 12%;
+			line-height: 2.5em;
+			z-index: 888;
+		}
+		a {
+			font-size: 0.9em;
+		}
+	}
+	#newsDiv {
+		width: 80%;
+		margin: 0 auto;
+	}
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.currentDate {
+		padding: 10px 0;
+		text-align: right;
+		padding-bottom: 30px;
+		border-bottom: 2px solid #f0f0f0;
+		font-size: 1.1em;
+	}
+	.underText {
+		text-align: right;
+	}
+	#inputPost {
+		width: 60%;
+		margin: 0 auto;
+	}
+	#inputPost #curDate {
+		width: 20%;
+		text-align: center;
+		margin: 0 auto;
+	}
+	#dateLabel {
+		text-align: center;
+	}
+	#logo {
+		position: fixed;
+		z-index: 999;
+		top: 35px;
+		left: 50px;
+	}
+	#logo_mobile {
+		display: none;
+	}
+	#footer {
+		color: white;
+		text-align: center;
+		position: fixed;
+		bottom: 15px;
+		left: 100px;
+		font-size: 11px;
+		line-height: normal;
+		letter-spacing: 2px;
+		z-index: 900;
+	}
+	#footer a {
+		text-decoration: none;
+		color: white;
+	}
+	#footer a:hover {
+		color: gray;
+	}
+	#menu {
+		padding-left: 0;
+		margin-left: 0;
+	}
+	#menu li {
+		list-style-type: none;
+	}
+	#menu a {
+		padding: 10px 70px 10px 70px;
+		color: white;
+	}
+	#menu a:link {
+		text-decoration: none;
+		color: white;
+		transition: 0.4s;
+	}
+	#menu a:hover {
+		text-decoration: none;
+		background-color: white;
+		color: black;
+		transition: 0.4s;
+	}
+	#menu a:visited {
+		text-decoration: none;
+	}
+	#headerPic {
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		width: 100%;
+		border-bottom: solid 3px black;
+	}
+	#main {
+		margin-left: 350px;
+		margin-top: 12%;
+		padding: 0px 5% 0px 5%;
+		text-align: justify;
+	}
+	#main h2 {
+		clear: both;
+		text-align: center;
+		font-weight: normal;
+		font-size: 28px;
+		letter-spacing: 3px;
+		padding-bottom: 10px;
+		border-bottom: solid 2px #F2F2F2;
+	}
+	.underConstruction {
+		text-align: center;
+	}
+	.quote {
+		text-align: center;
+		background-color: #E6F3F8;
+		padding: 10px;
+		border-radius: 7px 7px 7px 0px;
+		overflow: hidden;
+		font-size: 18px;
+	}
+	#form {
+		font-family: 'Open Sans', sans-serif;
+		padding: 10px;
+		width: 350px;
+		margin: 0 auto;
+	}
+	#left {
+		width: 35%;
+		float: left;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	#right {
+		width: 35%;
+		float: right;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	label {
+		width: 100%;
+		display: block;
+		font-size: 14px;
+		margin: 0 auto;
+		padding: 10px 0 0 0;
+		clear: both;
+	}
+	.input {
+		/*font-style: italic;*/
+		border: 1px solid black;
+		padding: 7px;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		width: 100%;
+		display: block;
+		margin: 0 0 0 -8px;
+		transition: 0.4s;
+	}
+	.input:hover {
+		background-color: #f0f0f0;
+	}
+	.input textarea {
+		height: 70px;
+		margin-bottom: 30px;
+	}
+	.small {
+		text-align: right;
+	}
+	#button {
+		width: 200px;
+		display: block;
+		margin: 0 auto;
+		padding: 12px;
+		border: 2px solid black;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	#button:default {
+		margin-top: 15px;
+		background: black;
+		color: white;
+		transition: 0.4s;
+	}
+	#button:hover {
+		border: 2px solid black;
+		color: black;
+		background-color: white;
+		transition: 0.4s;
+	}
+	#menuPic {
+		display: none;
+	}
+}
+#main h2 {
+	text-transform: uppercase;
+}
+#main h3 {
+	text-transform: uppercase;
+}
+@media screen and (max-width: 960px) {
+	body {
+		width: 100%;
+		min-height: 100%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+		background-color: #fafafa;
+		font-family: "Open Sans", sans-serif;
+	}
+	h3 {
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.currentDate {
+		padding: 10px 0;
+		text-align: right;
+		padding-bottom: 30px;
+		border-bottom: 2px solid #f0f0f0;
+		font-size: 1.1em;
+	}
+	.underText {
+		text-align: right;
+	}
+	#menu_tab {
+		position: fixed;
+		width: 100%;
+		padding: 5px 0 5px 0;
+		margin: 0;
+		top: 0;
+		background-color: black;
+
+		z-index: 1500;
+	}
+	#logo {
+		display: none;
+	}
+	#logo_mobile {
+		margin: 0 auto;
+		padding-left: 10px;
+		padding-top: 5px;
+	}
+	h1 {
+		padding: 0;
+		margin: 0;
+	}
+	#footer {
+		color: black;
+		margin: 4em 0 2em 0;
+		text-align: center;
+		font-size: 11px;
+		line-height: normal;
+		letter-spacing: 2px;
+	}
+	#footer a {
+		text-decoration: none;
+		color: black;
+	}
+	#footer a:hover {
+		color: gray;
+	}
+	#menu {
+		display: none;
+	}
+	#headerPic {
+		display: none;
+	}
+	#main {
+		text-align: justify;
+		padding: 0 40px 0 40px;
+		margin-top: 90px;
+	}
+	#main h2 {
+		text-align: center;
+		font-weight: normal;
+		font-size: 28px;
+		letter-spacing: 3px;
+		padding-bottom: 10px;
+		border-bottom: solid 2px #F2F2F2;
+	}
+	.quote {
+		text-align: center;
+		background-color: #E6F3F8;
+		padding: 10px;
+		border-radius: 7px 7px 7px 0px;
+		overflow: hidden;
+		font-size: 18px;
+	}
+	.underConstruction {
+		text-align: center;
+	}
+	#form {
+		font-family: 'Open Sans', sans-serif;
+		width: 270px;
+		margin: 0 auto;
+	}
+	#left {
+		width: 35%;
+		float: left;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	#right {
+		width: 35%;
+		float: right;
+		margin-left: 0;
+		padding-left: 0;
+	}
+	label {
+		width: 100%;
+		display: block;
+		font-size: 14px;
+		margin: 0 auto;
+		padding: 10px 0 0 0;
+		clear: both;
+	}
+	.input {
+		width: 100%;
+		border: 1px solid black;
+		padding: 7px;
+		font-size: 14px;
+		font-family: 'Open Sans', sans-serif;
+		display: block;
+		margin: 0 0 0 -8px;
+		text-align: left;
+	}
+	.input:hover {
+		background-color: #f0f0f0;
+	}
+	.input textarea {
+		height: 70px;
+		margin-bottom: 30px;
+	}
+	#button {
+		width: 100%;
+		padding: 12px;
+		border: 2px solid black;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	#button:default {
+		margin-top: 15px;
+		background: black;
+		color: white;
+		transition: 0,4s;
+	}
+	#button:hover {
+		border: 2px solid black;
+		color: black;
+		background-color: white;
+		transition: 0,4s;
+	}
+	#menuPic {
+		position: absolute;
+		top: -9px;
+		right: 7px;
+
+		z-index: 1000;
+	}
+	#mobMenu {
+		position: fixed;
+		background-color: black;
+		top: 74px;
+		width: 100%;
+		padding-bottom: 15px;
+		z-index: 1001;
+	}
+	#mobMenu ul {
+		padding: 0;
+	}
+	#mobMenu li {
+		text-align: center;
+		list-style-type: none;
+		margin-top: 30px;
+	}
+	#mobMenu a {
+		padding: 10px 30px 10px 30px;
+		color: white;
+	}
+	#mobMenu a:link {
+		text-decoration: none;
+		color: white;
+		transition: 0.4s;
+	}
+	#mobMenu a:hover {
+		text-decoration: none;
+		background-color: white;
+		color: black;
+		transition: 0.4s;
+	}
+	#mobMenu a:visited {
+		text-decoration: none;
+	}
+}
+
+.postImage img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+}
+
+.postText {
+	text-align-last: center;
+}

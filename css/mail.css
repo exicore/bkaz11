@@ -1,0 +1,11 @@
+#main a:link {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: black;
+}
+#main a:hover {
+	color: #efefef;
+	transition: 0,4s;
+}

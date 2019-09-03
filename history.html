@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="theme-color" content="#000000">
+	<title>История дома</title>
+	<link rel="icon" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/history.css" />
+	<script src="scripts/menu.js"></script>
+</head>
+<body>
+	<div id="menu_tab">
+		<p id="logo">
+			<a href="index.php"><img src="images/logo.svg" alt="ТСЖ Большой Казачий 11" width="250px" style="position: fixed; left: 50px;" /></a>
+		</p>
+		<p id="logo_mobile">
+			<a href="index.php"><img src="images/logo.svg" alt="ТСЖ Большой Казачий 11" width="250px" style="margin: auto;" /></a>
+		</p>
+		<ul id="menu">
+			<li><a href="index.php">НОВОСТИ</a></li>
+			<li><a href="index.php">СОБЫТИЯ</a></li>
+			<li><a href="providers.html">ПОСТАВЩИКИ УСЛУГ</a></li>
+			<li><a href="blanks.html">БЛАНКИ ДОКУМЕНТОВ</a></li>
+			<li><a href="history.html">ИСТОРИЯ ДОМА</a></li>
+			<li><a href="gallery.html">ФОТО</a></li>
+			<li><a href="contacts.html">КОНТАКТЫ</a></li>
+		</ul>
+	</div>
+	<div id="header">
+		<img id="headerPic" src="images/header.jpg" alt="header" />
+	</div>
+	<div id="main">
+		<h2>ДОХОДНЫЙ ДОМ И БАНИ Е.С.ЕГОРОВА</h2>
+		<div id="old">
+			<p>
+				<img src="images/old_photo.jpg" alt="old_photo">
+			</p>
+			<p>
+				1875-1876, 1882-1885 гг. - акад.арх. граф Сюзор Павел Юльевич - перестройка
+			</p>
+		</div>
+		<p>
+			Ефим Савельевич Егоров, купец 1-й гильдии, старообрядец, статский советник, затем действительный статский советник,  член Императорского Человеколюбивого общества, прославился широкой благотворительностью.
+		</p>
+		<p>
+			В 1875 г. Егоровым  получено разрешение от Петербургской городской управы на строительство "6-этажного жилого каменного дома, выходящего фасадом на Большой Казачий переулок, и каменных, с лицевой стороны двухэтажных, а внутри двора - 5-этажных народных, общих, номерных и семейных бань". Строительство велось по проекту акад. арх. Павла Юльевича Сюзора, и за эту работу архитектор  был удостоен золотой медали на выставке в Вене.
+		</p>
+		<p>
+			Строительство  осуществлялось под девизом: «роскошь - удобство - гигиена - чистота». Здание было богато отделано снаружи и роскошно внутри. Бани стали известны как "Дом народного здравия". Внутри имелся зал с бассейном для плавания и проходами для охлаждения, восточные бани с душем Шарко. Имелось гидротерапевтическое отделение с сернистыми, соляными песочными и "другими видами лечебных бань". Работала парикмахерская и мозольный кабинет. Также при бане работал ресторан и кегельбан.
+		</p>
+		<p class="quote">
+			Бани открылись для посетителей  осенью 1879 г., о чем 14 (26) августа 1879 г. сообщила петербургская газета "Голос".
+		</p>
+		<p>
+			<img id="old2" src="images/old2.jpg" alt="old2">
+		</p>
+		<p>
+			Бани назывались по фамилии владельца Егоровские, но получили и название  Казачьи, по Казачьему переулку, в свою очередь получившему такое наименование по находившемуся  неподалеку  Донскому казачьему подворью.
+		</p>
+		<p>
+			В советское время бани пришли в упадок. Из трех зданий, занимаемых банями, два были перестроены под жилые дома, и только одно осталось собственно банями. К концу 1993 года заведение полностью закрылось.
+		</p>
+		<p>
+			В 1994 году начался процесс возрождения бань. Уже к концу года были приняты первые посетители, а с 1995 года  открыта парикмахерская, маникюрный и педикюрный кабинеты, работает солярий. В настоящее время Егоровские или, как они теперь называются, Казачьи бани - это  большой банный комплекс с бассейном, номерами люкс и банями общего класса. Комплекс работает круглосуточно.
+		</p>
+		<p class="quote">
+			Егоровские бани, наверное, старейшие в Петербурге, они были построены еще в 1804 году, а затем дважды перестраивались (в 1875-1876, 1882-1885 гг.)
+		</p>
+		<h2>ОБРАТНАЯ СВЯЗЬ</h2>
+		<form id="form" method="post" action="scripts/contactform.php">
+			<div>
+				<label for="name">Имя:</label>
+				<input class="input" required="yes" maxlength="30" type="text" name="name" placeholder="Например, Иванов Виктор Васильевич" />
+
+				<label for="phone">Телефон:</label>
+				<input class="input" maxlength="30" type="text" name="phone" placeholder="Например, +7 900 555 0123" />
+
+				<div id="left">
+					<label for="flat">Квартира №</label>
+					<input class="input" required="yes" maxlength="4" type="text" name="flat" placeholder="123" />
+				</div>
+
+				<div id="right">
+					<label for="stairs">Лестница №</label>
+					<input class="input" required="yes" maxlength="4" type="text" name="stairs" placeholder="5">
+				</div>
+
+				<label for="message">Сообщение:</label>
+				<textarea class="input" required="yes" rows="7" cols="50" name="message" placeholder="Текст сообщения"></textarea>
+
+				<input id="button" type="submit" value="Отправить" />
+			</div>
+		</form>
+	</div>
+	<div>
+		<p id="footer">
+			2016-2017 <br />
+			Все права защищены. <br />
+			<a href="http://www.bkaz11.ru">www.bkaz11.ru</a>
+		</p>
+	</div>
+</body>
+</html>

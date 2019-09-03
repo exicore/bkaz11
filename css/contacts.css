@@ -1,0 +1,48 @@
+#worktime {
+	align-content: center;
+	margin-bottom: 30px;
+}
+.work_table {
+	text-align: center;
+	margin: 0 auto;
+}
+.weekend {
+	border-bottom: solid 2px red;
+}
+.workday {
+	border-bottom: solid 2px #3f9f35;
+}
+#contact {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+th {
+	width: 60px;
+	transition: 0,4s;
+}
+th:hover, td:hover {
+	background-color: #f0f0f0;
+	transition: 0,4s;
+}
+#contact_data, #adress{
+	text-align: center;
+}
+#link a {
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+#link a:link {
+	text-decoration: none;
+	color: black;
+	transition: 0,9s;
+}
+#link a:hover {
+	color: black;
+	background-color: #f0f0f0;
+	transition: 0,9s;
+}
+#link a:visited {
+	text-decoration: none;
+}

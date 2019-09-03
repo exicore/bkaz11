@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="theme-color" content="#000000">
+	<title>Поставщики услуг</title>
+	<link rel="icon" href="images/favicon.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/providers.css" />
+	<script src="scripts/menu.js"></script>
+</head>
+<body>
+	<div id="menu_tab">
+		<p id="logo">
+			<a href="index.php"><img src="images/logo.svg" alt="ТСЖ Большой Казачий 11" width="250px" style="position: fixed; left: 50px;" /></a>
+		</p>
+		<p id="logo_mobile">
+			<a href="index.php"><img src="images/logo.svg" alt="ТСЖ Большой Казачий 11" width="250px" style="margin: auto;" /></a>
+		</p>
+		<ul id="menu">
+			<li><a href="index.php">НОВОСТИ</a></li>
+			<li><a href="index.php">СОБЫТИЯ</a></li>
+			<li><a href="providers.html">ПОСТАВЩИКИ УСЛУГ</a></li>
+			<li><a href="blanks.html">БЛАНКИ ДОКУМЕНТОВ</a></li>
+			<li><a href="history.html">ИСТОРИЯ ДОМА</a></li>
+			<li><a href="gallery.html">ФОТО</a></li>
+			<li><a href="contacts.html">КОНТАКТЫ</a></li>
+		</ul>
+	</div>
+	<div id="header">
+		<img id="headerPic" src="images/header.jpg" alt="header" />
+	</div>
+	<div id="main">
+		<h2>поставщики услуг</h2>
+		<p align="center">Ниже приведен список основных поставщиков услуг для жителей нашего дома.</p>
+		<div>
+			<table id="providers">
+				<tr>
+					<th>Бухгалтер</th>
+					<td><a href="tel:+79112734711">+7 911 273-47-11</a>,<br />Елена Ивановна, с 12:00 до 20:00</td>
+				</tr>
+				<tr>
+					<th>Сантехник</th>
+					<td><a href="tel:+79118404399">+7 911 840-43-99</a>, Виктор Сергеевич<br /><a href="tel:+79110899831">+7 911 089-98-31</a>, Александр</td>
+				</tr>
+				<tr>
+					<th>Электрик</th>
+					<td><a href="tel:+79062629854">+7 906 262-98-54</a>,<br />Игорь</td>
+				</tr>
+				<tr>
+					<th>"ПетербургГаз"</th>
+					<td><a href="tel:+78126100404">(812) 610-04-04</a>, при авариях<br />звонить по этому телефону</td>
+				</tr>
+				<tr>
+					<th>"ОТИС", лифты</th>
+					<td><a href="tel:+78127126343">(812) 712-63-43</a>,<br /><a href="tel:+78127031020">(812) 703-10-20</a></td>
+				</tr>
+				<tr>
+					<th>"ЭЛТИС", домофоны</th>
+					<td><a href="tel:+78123272909">(812) 327-29-09</a>,<br /><a href="tel:+78123275139">(812) 327-51-39</a></td>
+				</tr>
+				<tr>
+					<th>"Ростелеком",<br />ТВ-антенна</th>
+					<td><a href="tel:88001000800">8 800 100-08-00</a>,<br /><a href="https://spb.rt.ru/" target="_blank">www.spb.rt.ru</a></td>
+				</tr>
+				<tr>
+					<th>Участковый пункт<br />полиции №10</th>
+					<td><a href="tel:+78127124246">(812) 712-42-46</a>,<br />004 и 02</td>
+				</tr>
+				<tr>
+					<th>"Акадо-Нева",<br />интернет-провайдер</th>
+					<td><a href="tel:+78122452502">(812) 245-25-02</a>,<br /><a href="http://akado-spb.ru" target="_blank">www.akado-spb.ru</a></td>
+				</tr>
+				<tr>
+					<th>Радио-точка</th>
+					<td><a href="http://rsvo.ru/st-petersburg/subscribers/disabling-radioshack/" target="_blank">Информация об отключении радиоточки</a></td>
+				</tr>
+			</table>
+		</div>
+		<h2>ОБРАТНАЯ СВЯЗЬ</h2>
+		<form id="form" method="post" action="scripts/contactform.php">
+			<div>
+				<label for="name">Имя:</label>
+				<input class="input" required="yes" maxlength="30" type="text" name="name" placeholder="Например, Иванов Виктор Васильевич" />
+
+				<label for="phone">Телефон:</label>
+				<input class="input" maxlength="30" type="text" name="phone" placeholder="Например, +7 900 555 0123" />
+
+				<div id="left">
+					<label for="flat">Квартира №</label>
+					<input class="input" required="yes" maxlength="4" type="text" name="flat" placeholder="123" />
+				</div>
+
+				<div id="right">
+					<label for="stairs">Лестница №</label>
+					<input class="input" required="yes" maxlength="4" type="text" name="stairs" placeholder="5">
+				</div>
+
+				<label for="message">Сообщение:</label>
+				<textarea class="input" required="yes" rows="7" cols="50" name="message" placeholder="Текст сообщения"></textarea>
+
+				<input id="button" type="submit" value="Отправить" />
+			</div>
+		</form>
+	</div>
+	<div>
+		<p id="footer">
+			2016-2017 <br />
+			Все права защищены. <br />
+			<a href="http://www.bkaz11.ru">www.bkaz11.ru</a>
+		</p>
+	</div>
+</body>
+</html>

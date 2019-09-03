@@ -1,0 +1,30 @@
+#providers {
+	width: 70%;
+	margin: 10px auto;
+	border-top: 2px #f0f0f0 solid;
+	border-collapse: collapse;
+}
+#providers a {
+	color: black;
+}
+#providers th, td {
+	border-bottom: 2px #f0f0f0 solid;
+	padding: 5px;
+}
+#providers th {
+	width: 40%;
+	text-align: center;
+}
+#providers td {
+	text-align: left;
+	padding-left: 30px;
+}
+@media screen and (max-width: 960px) {
+	#providers {
+		width: 100%;
+		margin: 10px auto;
+		border-top: 2px #f0f0f0 solid;
+		border-collapse: collapse;
+		font-size: 0.8em;
+	}
+}

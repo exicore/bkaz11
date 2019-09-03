@@ -1,0 +1,29 @@
+#old {
+	float: right;
+	width: 250px;
+	margin: 0 0 0 30px;
+	padding: 0;
+}
+#old img {
+	width: 250px;
+	margin: 0;
+	padding: 0;
+}
+#old p {
+	text-align: center;
+	font-size: 1em;
+}
+#old2 {
+	float: left;
+	width: 400px;
+	margin: 7px 30px 50px 0;
+}
+@media screen and (orientation: portrait) {
+	#old, #old img, #old p {
+		width: 100%;
+		font-size: 14px;
+	}
+	#old2 {
+		width: 100%;
+	}
+}

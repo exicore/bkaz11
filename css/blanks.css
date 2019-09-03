@@ -1,0 +1,54 @@
+@media only all and (min-width: 961px) {
+	#docs {
+		text-align: center;
+	}
+
+	.document {
+		height: 150px;
+		width: 100px;
+	}
+
+	#docTable {
+		margin: 0 auto;
+		border-spacing: 50px 10px;
+	}
+
+	#docTable a {
+		color: black;
+	}
+
+	#docTable a:hover {
+		text-decoration: none;
+	}
+
+	#docTable a:visited {
+		color: black;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	#docs {
+		text-align: center;
+	}
+
+	.document {
+		height: 100px;
+		width: 63px;
+	}
+	#docTable {
+		margin: 0 auto;
+		border-spacing: 20px 10px;
+		font-size: 0.8em;
+	}
+	#docTable a {
+		color: black;
+	}
+
+	#docTable a:hover {
+		text-decoration: none;
+	}
+
+	#docTable a:visited {
+		color: black;
+	}
+}
